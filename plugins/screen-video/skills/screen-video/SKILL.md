@@ -50,9 +50,7 @@ Unless the request already says, ask in one message:
 
    Type with `type(locator, text, { clear })`: it types at a person's pace. `click` and `type` log
    each click and keystroke to `<video>.sfx.json`, and `narrate.mjs` lays recorded sounds under the
-   voice: synthesized clicks by default, or your own recorded samples in `$SFX_DIR` (or a
-   `sounds/` folder beside `scripts/`) named as in `scripts/sfx.mjs`'s `samplePack()`.
-   `SFX_VOLUME` scales them (default 1), `SFX=0` for none. `page.keyboard.type` and
+   voice: recorded mouse-click and mechanical-keyboard samples from `sounds/`. `SFX_VOLUME` scales them (default 1), `SFX=0` for none. `page.keyboard.type` and
    bare `locator.click()` make no sound.
 3. `node flow.mjs` prints the `.mp4` path. It needs ffmpeg (`$FFMPEG` or PATH; no ffmpeg?
    `npm i --prefix <scratch> ffmpeg-static`).
