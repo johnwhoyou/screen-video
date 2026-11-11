@@ -1,0 +1,5 @@
+{
+  "name": "screen-video",
+  "description": "Record a captioned or AI-narrated Playwright walkthrough of a web app and deliver it as an .mp4, inline in a GitHub PR or issue, on Linear, or in Slack",
+  "author": { "name": "John Carlo Joyo" }
+}

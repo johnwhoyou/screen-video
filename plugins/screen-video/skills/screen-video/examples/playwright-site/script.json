@@ -1,0 +1,6 @@
+[
+  { "id": "intro", "say": "This is Playwright, a tool for automating real browsers." },
+  { "id": "docs", "say": "Everything starts from the Get started guide." },
+  { "id": "install", "say": "Installing it takes a single command." },
+  { "id": "search", "say": "And the search box finds any part of the API in a few keystrokes." }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "screen-video",
+  "description": "Record captioned, narrated screen-recording demos and walkthroughs of any web app",
+  "owner": { "name": "John Carlo Joyo" },
+  "plugins": [
+    {
+      "name": "screen-video",
+      "source": "./plugins/screen-video",
+      "description": "Record a captioned or AI-narrated Playwright walkthrough of a web app and deliver it as an .mp4, inline in a GitHub PR or issue, on Linear, or in Slack"
+    }
+  ]
+}
